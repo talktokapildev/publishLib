@@ -1,0 +1,22 @@
+{
+  "npmScope": "ws2",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "first-lib-pub": {
+      "tags": []
+    },
+    "first-lib-pub-e2e": {
+      "tags": [],
+      "implicitDependencies": ["first-lib-pub"]
+    }
+  }
+}
