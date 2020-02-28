@@ -17,6 +17,15 @@
     "first-lib-pub-e2e": {
       "tags": [],
       "implicitDependencies": ["first-lib-pub"]
+    },
+    "ui": {
+      "tags": []
+    },
+    "ui2": {
+      "tags": []
+    },
+    "mylib": {
+      "tags": []
     }
   }
 }

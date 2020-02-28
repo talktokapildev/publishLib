@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ws2/ui": ["libs/ui/src/index.ts"],
+      "@ws2/ui2": ["libs/ui2/src/index.ts"],
+      "@ws2/mylib": ["libs/mylib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
