@@ -6,7 +6,7 @@
     "bump-version:major": "cd libs/ui && npm version major --force",
     "bump-version:minor": "cd libs/ui  && npm version minor --force",
     "bump-version:patch": "cd libs/ui  && npm version patch --force",
-    "build:lib-pack": "npm run copy-files &&  cd dist/libs/ui  && npm pack",
+    "build:lib-pack": "ng build ui && npm run copy-files &&  cd dist/libs/ui  && npm pack",
     "copy-assets": "cp ./libs/ui/src/lib/shared-assets/*.* ./dist/libs/ui",
     "copy-files": "run-s copy-assets",
     "commit-git": "git add . && git commit -m \"build: adds new release\" && git push origin && git push origin --tags",
